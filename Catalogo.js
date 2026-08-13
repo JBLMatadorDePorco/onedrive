@@ -1,4 +1,4 @@
-export default class Catalogo {
+export default class Catalogo { //Cria a classe catalogo e essa classe pode ser exportada por outros arquivos j.s
     #listaDoMidias;
     constructor() {
         this.#listaDoMidias = [];
