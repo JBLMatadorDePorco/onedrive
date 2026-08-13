@@ -22,3 +22,4 @@ export default class Catalogo {
         m => m.genero.toLowerCase() === generoA1
     );
 }
+}
