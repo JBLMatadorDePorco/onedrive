@@ -16,4 +16,9 @@ export default class Catalogo {
             container.innerHTML += midia.obterDadosHTML();
         });
     }
+
+    static filtrarPorGenero(catalogoInstanciado, generoAlvo) {
+    return catalogoInstanciado.#listaDoMidias.filter(
+        m => m.genero.toLowerCase() === generoA1
+    );
 }
