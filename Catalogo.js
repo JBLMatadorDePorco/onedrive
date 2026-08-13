@@ -1,5 +1,5 @@
 export default class Catalogo { //Cria a classe catalogo e essa classe pode ser exportada por outros arquivos j.s
-    #listaDoMidias;
+    #listaDoMidias; //declara uma propriedade e essa propriedade ela é privada ou seja ela só pode ser acessada dentro da classe catalogo
     constructor() {
         this.#listaDoMidias = [];
     }
